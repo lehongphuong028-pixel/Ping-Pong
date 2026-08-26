@@ -5,9 +5,13 @@ Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm 
 Hướng dẫn tải về:
 
 B1: vào mục Repo chọn <>Code
+
 B2: Chọn tải Download ZIP file
+
 B3: Giải nén
+
 B4: Tải ứng dụng Unity về
+
 B5: Chọn Open Project vừa mới tải và chạy
 
 -End-
