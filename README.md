@@ -2,7 +2,7 @@
 
 Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm của người chơi
 
-Cập nhật 1: Sửa đường bay của quả bóng ở mọi hướng thay vì bay ngang
+Cập nhật 1: Sửa đường bay của quả bóng ở mọi hướng thay vì bay ngang.  Thay đổi vị trí của vật thể trong Hiraechy cho gọn gàng.  
 
 Hướng dẫn tải về:
 
