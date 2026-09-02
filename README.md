@@ -2,6 +2,8 @@
 
 Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm của người chơi
 
+Cập nhật 1: Sửa đường bay của quả bóng ở mọi hướng thay vì bay ngang
+
 Hướng dẫn tải về:
 
 B1: vào mục Repo chọn <>Code
