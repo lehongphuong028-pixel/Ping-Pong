@@ -11,8 +11,8 @@ Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm 
 
 **Cập nhật 2 - 03/09/2026:**
 - Thêm hệ thống tính điểm vào game.
-- Chỉnh độ phân giải của game.
-- Chỉnh vị trí của 2 vợt đánh bóng.
+- Chỉnh độ phân giải của game từ Free Aspect thành Full HD 1920x1080.
+- Chỉnh vị trí của 2 vợt đánh bóng để chúng xuất hiện trong khung hình.
   
 **Hướng dẫn tải về:**
 
