@@ -2,14 +2,19 @@
 
 Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm của người chơi
 
-Cập nhật 1 - 02/09/2026: 
+**Cập nhật 1 - 02/09/2026:** 
 - Sửa đường bay của quả bóng ở mọi hướng thay vì bay ngang. 
 - Thay đổi vị trí của vật thể trong Hierachy cho gọn gàng.
-- Thêm vùng ghi điểm khi bóng chạm vào sẽ thông báo Score!  
+- Thêm vùng ghi điểm khi bóng chạm vào sẽ thông báo "Score!".  
 - Thêm hàm khai báo reset vị trí của quả bóng khi chạm vào vùng ghi điểm.
 - Cập nhật hàm chuyển động ngẫu nhiên của quả bóng.
 
-Hướng dẫn tải về:
+**Cập nhật 2 - 03/09/2026:**
+- Thêm hệ thống tính điểm vào game.
+- Chỉnh độ phân giải của game.
+- Chỉnh vị trí của 2 vợt đánh bóng.
+  
+**Hướng dẫn tải về:**
 
 B1: vào mục Repo chọn <>Code
 
