@@ -10,9 +10,11 @@ Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm 
 - Cập nhật hàm chuyển động ngẫu nhiên của quả bóng.
 
 **Cập nhật 2 - 03/09/2026:**
-- Thêm hệ thống tính điểm vào game.
+- Thêm dòng chữ hiện số điểm trên màn hình
+- Tạo vùng ghi điểm khi quả bóng chạm vào 
 - Chỉnh độ phân giải của game từ Free Aspect thành Full HD 1920x1080.
 - Chỉnh vị trí của 2 vợt đánh bóng để chúng xuất hiện trong khung hình.
+- Tạo GameManager để quản lý điểm số khi quả bóng ghi điểm.
   
 **Hướng dẫn tải về:**
 
