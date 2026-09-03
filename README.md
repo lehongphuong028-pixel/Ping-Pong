@@ -5,13 +5,13 @@ Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm 
 **Cập nhật 1 - 02/09/2026:** 
 - Sửa đường bay của quả bóng ở mọi hướng thay vì bay ngang. 
 - Thay đổi vị trí của vật thể trong Hierachy cho gọn gàng.
-- Thêm vùng ghi điểm khi bóng chạm vào sẽ thông báo "Score!".  
+- Tạo vùng ghi điểm khi bóng chạm vào sẽ thông báo "Score!".  
 - Thêm hàm khai báo reset vị trí của quả bóng khi chạm vào vùng ghi điểm.
 - Cập nhật hàm chuyển động ngẫu nhiên của quả bóng.
 
 **Cập nhật 2 - 03/09/2026:**
-- Thêm dòng chữ hiện số điểm trên màn hình
-- Tạo vùng ghi điểm khi quả bóng chạm vào 
+- Tạo dòng chữ hiện số điểm trên màn hình
+- Sửa logic của vùng ghi điểm khi quả bóng chạm vào 
 - Chỉnh độ phân giải của game từ Free Aspect thành Full HD 1920x1080.
 - Chỉnh vị trí của 2 vợt đánh bóng để chúng xuất hiện trong khung hình.
 - Tạo GameManager để quản lý điểm số khi quả bóng ghi điểm.
