@@ -15,14 +15,16 @@ Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm 
 - Chỉnh độ phân giải của game từ Free Aspect thành Full HD 1920x1080.
 - Chỉnh vị trí của 2 vợt đánh bóng để chúng xuất hiện trong khung hình.
 - Tạo GameManager để quản lý điểm số khi quả bóng ghi điểm.
-  
+
+**Lưu ý: Quá trình lập trình tựa game này hiện tại chưa hoàn thành nên sẽ có vô số nhánh Branch. Vì vậy người muốn chơi hãy tải về bẳng cách chọn Branch mới nhất để tải hoặc chọn Branch gốc để thử nghiệm.**
+
 **Hướng dẫn tải về:**
 
 B1: vào mục Repo chọn <>Code
 
 B2: Chọn tải Download ZIP file
 
-B3: Giải nén
+B3: Giải nén file
 
 B4: Tải ứng dụng Unity về
 
