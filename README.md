@@ -1,4 +1,4 @@
-Đây là một tựa game Ping Pong đơn giản được thiết kế bằng Unity
+Đây là một tựa game Ping Pong đơn giản được thiết kế bằng Unity.  Được tạo ra nhằm mục đích học hỏi về cách lập trình một tựa game. 
 
 Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm của người chơi
 
