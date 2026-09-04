@@ -16,7 +16,7 @@ Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm 
 - Chỉnh vị trí của 2 vợt đánh bóng để chúng xuất hiện trong khung hình.
 - Tạo GameManager để quản lý điểm số khi quả bóng ghi điểm.
 
-**Lưu ý: Quá trình lập trình tựa game này hiện tại chưa hoàn thành nên sẽ có vô số nhánh Branch. Vì vậy người muốn chơi hãy tải về bẳng cách chọn Branch mới nhất để tải hoặc chọn Branch gốc để thử nghiệm.**
+**Lưu ý: Quá trình lập trình tựa game này hiện tại chưa hoàn thành nên sẽ có vô số nhánh Branch. Vì vậy người muốn chơi để trải nghiệm hãy tải về bẳng cách chọn Branch mới nhất để tải hoặc chọn Branch gốc để thử nghiệm.**
 
 **Hướng dẫn tải về:**
 
