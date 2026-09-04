@@ -14,7 +14,9 @@ public class Ball : MonoBehaviour
     public float maxStartY = 4f;
     // Khai báo biến startX để lưu trữ vị trí x ban đầu của quả bóng
     private float startX = 0f;
-    // Hàm Start được gọi khi đối tượng được khởi tạo
+    // Khai báo biến SpeedUp để thiết lập tốc độ tăng của quả bóng khi va chạm
+    public float SpeedUp = 1.1f;
+    
     private void Start()
     {
         // Thiết lập vận tốc ban đầu cho quả bóng
@@ -40,6 +42,15 @@ public class Ball : MonoBehaviour
             gameManager.OnScoreZoneReached(scoreZone.id);
             Debug.Log("Score!");
             ResetBall();
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+       Paddle paddle = collision.gameObject.GetComponent<Paddle>();
+        if (paddle != null)
+        {
+            // Tăng tốc độ của quả bóng khi va chạm với paddle
+            rb2d.linearVelocity *= SpeedUp;
         }
     }
 }
