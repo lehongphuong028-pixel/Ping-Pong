@@ -16,6 +16,13 @@ Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm 
 - Chỉnh vị trí của 2 vợt đánh bóng để chúng xuất hiện trong khung hình.
 - Tạo GameManager để quản lý điểm số khi quả bóng ghi điểm.
 
+**Cập nhật 3 - 04/09/2026:**
+- Sửa lỗi 2 vợt đi đi xuyên qua bức tường trên và dưới.
+- Cập nhật logic di chuyển của 2 vợt để di chuyển mượt hơn.
+- Sửa lỗi 2 vợt khi di chuyển vào tường thì bị giật do 2 vật thể bị va chạm nhau.
+- Cập nhật tốc độ của quả bóng mỗi lần khi va chạm.
+- Cập nhật vật lý của quả bóng khi bay theo một hướng nhất định.
+   
 **Lưu ý: Quá trình lập trình tựa game này hiện tại chưa hoàn thành nên sẽ có vô số nhánh Branch. Vì vậy người muốn chơi để trải nghiệm hãy tải về bẳng cách chọn Branch mới nhất để tải hoặc chọn Branch gốc để thử nghiệm.**
 
 **Hướng dẫn tải về:**
