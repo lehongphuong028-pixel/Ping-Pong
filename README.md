@@ -22,7 +22,11 @@ Note: Chưa thêm giao diện UI của Main Menu và hệ thống Tính điểm 
 - Sửa lỗi 2 vợt khi di chuyển vào tường thì bị giật do 2 vật thể bị va chạm nhau.
 - Cập nhật tốc độ của quả bóng mỗi lần khi va chạm.
 - Cập nhật vật lý của quả bóng khi bay theo một hướng nhất định.
-   
+
+**Cập nhật 4 - 05/09/2026:**
+- Thêm giao diện đường viền cắt ngang ở giữa trung tâm.
+- Cập nhật Logic của quả bóng và cái vợt khi chạm vùng ghi điểm không reset tốc độ và vị trí ban đầu.
+ 
 **Lưu ý: Quá trình lập trình tựa game này hiện tại chưa hoàn thành nên sẽ có vô số nhánh Branch. Vì vậy người muốn chơi để trải nghiệm hãy tải về bẳng cách chọn Branch mới nhất để tải hoặc chọn Branch gốc để thử nghiệm.**
 
 **Hướng dẫn tải về:**
