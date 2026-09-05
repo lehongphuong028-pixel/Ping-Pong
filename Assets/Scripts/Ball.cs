@@ -2,30 +2,35 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    // Khai báo biến gameManager để truy cập vào GameManager
+
     public GameManager gameManager;
-    // Khai báo biến Rigidbody2D để truy cập vào thành phần vật lý của quả bóng
     public Rigidbody2D rb2d;
-    // Khai báo biến moveSpeed để thiết lập tốc độ di chuyển của quả bóng
     public float moveSpeed;
-    // Khai báo biến maxIntialAngle để giới hạn góc ban đầu của quả bóng
     public float maxIntialAngle = 0.67f;
-    // Khai báo biến maxStartY để giới hạn vị trí y ban đầu của quả bóng
     public float maxStartY = 4f;
-    // Khai báo biến startX để lưu trữ vị trí x ban đầu của quả bóng
     private float startX = 0f;
-    // Khai báo biến SpeedUp để thiết lập tốc độ tăng của quả bóng khi va chạm
     public float SpeedUp = 1.1f;
-    
+
     private void Start()
     {
-        // Thiết lập vận tốc ban đầu cho quả bóng
-        Vector2 dir = Vector2.left;
+        InitialPush();
+        gameManager.onReset += ResetBall;
+    }
+    private void ResetBall()
+    {
+        ResetBallPosition();
+        InitialPush();
+    }
+    private void InitialPush()
+    {
+        Vector2 dir = Random.value < 0.5f ? Vector2.left : Vector2.right;
         dir.y = Random.Range(-maxIntialAngle, maxIntialAngle);
+
         rb2d.linearVelocity = dir * moveSpeed;
+
     }
     // Hàm để reset vị trí của quả bóng về vị trí ban đầu
-    private void ResetBall()
+    private void ResetBallPosition()
     {
         float posY = UnityEngine.Random.Range(-maxStartY, maxStartY);
         Vector2 startPosition = new Vector2(startX, posY);
@@ -39,14 +44,13 @@ public class Ball : MonoBehaviour
         if (scoreZone != null)
         {
             // Gọi hàm OnScoreZoneReached của GameManager để cập nhật điểm số
-            gameManager.OnScoreZoneReached(scoreZone.id);
-            Debug.Log("Score!");
-            ResetBall();
+            GameManager.instance.OnScoreZoneReached(scoreZone.id);
+
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-       Paddle paddle = collision.gameObject.GetComponent<Paddle>();
+        Paddle paddle = collision.gameObject.GetComponent<Paddle>();
         if (paddle != null)
         {
             // Tăng tốc độ của quả bóng khi va chạm với paddle
