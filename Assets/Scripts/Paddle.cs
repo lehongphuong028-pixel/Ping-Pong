@@ -3,8 +3,21 @@ using UnityEngine;
 public class Paddle : MonoBehaviour
 {
     public Rigidbody2D rb2d;
-    public float id;
+    public int id;
     public float moveSpeed = 2f;
+
+    private Vector3 startPosition;
+
+    private void Start()
+    {
+        startPosition = transform.position;
+        GameManager.instance.onReset += ResetPosition;
+    }
+    private void ResetPosition()
+    {
+        transform.position = startPosition;
+
+    }
 
     private void Update()
     {
